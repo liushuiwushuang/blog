@@ -44,17 +44,19 @@
         <activity android:name=".activity.uicustom.Main2Activity" />
         <activity android:name=".activity.uicustom.RecyclerViewTestActivity" />
         <activity android:name=".activity.uicustom.RecyclerViewHorizontalActivity" />
-        <activity android:name=".activity.uicustom.BeautifulActivity">
+        <activity android:name=".activity.uicustom.BeautifulActivity" />
+        <activity android:name=".activity.uicustom.NewsContentActivity" />
+        <activity android:name=".activity.uicustom.NewsMainActivity">
 
         </activity>
-        <activity android:name=".activity.uicustom.NewsContentActivity"/>
-        <activity android:name=".activity.uicustom.NewsMainActivity">
+        <activity android:name=".activity.broadcast.LoginActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity android:name=".activity.broadcast.BroadCastPerfectActivity"/>
     </application>
 
 </manifest>

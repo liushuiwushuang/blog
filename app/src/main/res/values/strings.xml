@@ -13,4 +13,10 @@
 
     <string name="type_something_here">Type something here</string>
     <string name="send">Send</string>
+
+    <string name="account">Account:</string>
+    <string name="password">Password:</string>
+    <string name="text_password">textPassword</string>
+    <string name="login">Login</string>
+    <string name="send_force_offline_broadcast">Send force offline broadcast</string>
 </resources>

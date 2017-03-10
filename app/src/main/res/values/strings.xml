@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">FirstCode</string>
+    <string name="button_1">Button 1</string>
+    <string name="button_2">Button 2</string>
+    <string name="button_3">Button 3</string>
+    <string name="button_4">Button 4</string>
+    <string name="this_is_firstActivity">This is FirstActivity</string>
+    <string name="add">Add</string>
+    <string name="remove">Remove</string>
+    <string name="back">Back</string>
+    <string name="title_text">Title Text</string>
+    <string name="edit">Edit</string>
+
+    <string name="type_something_here">Type something here</string>
+    <string name="send">Send</string>
+</resources>

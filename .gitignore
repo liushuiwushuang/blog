@@ -1,5 +1,29 @@
 # Created by https://www.gitignore.io/api/windows,android
 
+*/target
+target
+tmp
+*~
+bin
+*/test-output
+temp-testng-customsuite.xml
+**pom.xml.releaseBackup
+release.properties
+gen
+*/seed.txt
+notes
+logs
+gen-external-apklibs
+.idea
+*.iml
+.DS_Store
+*.db
+*.swp
+out
+.gradle
+/local.properties
+/build
+
 ### Android ###
 # Built application files
 *.apk
@@ -37,10 +61,9 @@ captures/
 
 # Intellij
 *.iml
-.idea/workspace.xml
-.idea/tasks.xml
-.idea/gradle.xml
-.idea/libraries
+*.ipr
+*.iws
+.idea/
 
 # Keystore files
 *.jks
@@ -79,5 +102,34 @@ $RECYCLE.BIN/
 
 # Windows shortcuts
 *.lnk
+
+###Eclipse###
+*.pydevproject
+.metadata
+tmp/
+*.tmp
+*.bak
+*.swp
+*~.nib
+.settings/
+.loadpath
+
+# External tool builders
+.externalToolBuilders/
+
+# Locally stored "Eclipse launch configurations"
+*.launch
+
+# CDT-specific
+.cproject
+
+# PDT-specific
+.buildpath
+
+# sbteclipse plugin
+.target
+
+# TeXlipse plugin
+.texlipse
 
 # End of https://www.gitignore.io/api/windows,android

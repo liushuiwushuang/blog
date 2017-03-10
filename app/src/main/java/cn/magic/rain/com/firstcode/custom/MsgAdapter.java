@@ -15,6 +15,7 @@ import cn.magic.rain.com.firstcode.entity.Msg;
 
 /**
  * Created by Administrator on 2017/3/9.
+ * @author magicRain
  */
 
 public class MsgAdapter extends RecyclerView.Adapter<MsgAdapter.ViewHolder> {
@@ -60,7 +61,7 @@ public class MsgAdapter extends RecyclerView.Adapter<MsgAdapter.ViewHolder> {
 
         TextView rightMsgTextView;
 
-        public ViewHolder(View itemView) {
+        private ViewHolder(View itemView) {
             super(itemView);
             leftLayout = (LinearLayout) itemView.findViewById(R.id.left_layout);
             rightLayout = (LinearLayout) itemView.findViewById(R.id.right_layout);

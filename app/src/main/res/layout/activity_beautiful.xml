@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="#d8e0e8"
-    tools:context="cn.magic.rain.com.firstcode.activity.uicustom.BeautifulActivity">
+    tools:context=".activity.uicustom.BeautifulActivity">
 
     <android.support.v7.widget.RecyclerView
         android:id="@+id/msg_recycler_view"

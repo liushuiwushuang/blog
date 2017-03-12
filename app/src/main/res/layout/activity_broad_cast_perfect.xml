@@ -4,7 +4,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    tools:context="cn.magic.rain.com.firstcode.activity.broadcast.BroadCastPerfectActivity">
+    tools:context=".activity.broadcast.BroadCastPerfectActivity">
 
     <Button
         android:id="@+id/force_offline"

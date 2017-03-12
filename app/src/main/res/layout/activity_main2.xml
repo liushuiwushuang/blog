@@ -8,7 +8,7 @@
     android:paddingLeft="@dimen/activity_horizontal_margin"
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
-    tools:context="cn.magic.rain.com.firstcode.activity.uicustom.Main2Activity">
+    tools:context=".activity.uicustom.Main2Activity">
 
     <ListView
         android:id="@+id/list_view_main2"

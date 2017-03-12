@@ -6,7 +6,7 @@
 
     <fragment
         android:id="@+id/news_title_fragment"
-        android:name="cn.magic.rain.com.firstcode.custom.NewsTitleFragment"
+        android:name="com.magic.rain.cn.firstcode.custom.NewsTitleFragment"
         android:layout_width="0dp"
         android:layout_height="match_parent"
         android:layout_weight="1"/>
@@ -19,7 +19,7 @@
 
         <fragment
             android:id="@+id/news_content_fragment"
-            android:name="cn.magic.rain.com.firstcode.custom.NewContentFragment"
+            android:name="com.magic.rain.cn.firstcode.custom.NewContentFragment"
             android:layout_width="match_parent"
             android:layout_height="match_parent"/>
 

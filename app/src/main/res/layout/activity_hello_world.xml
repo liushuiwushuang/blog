@@ -8,7 +8,7 @@
     android:paddingLeft="@dimen/activity_horizontal_margin"
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
-    tools:context="cn.magic.rain.com.firstcode.activity.HelloWorldActivity">
+    tools:context=".activity.HelloWorldActivity">
 
     <Button
         android:id="@+id/button_firstcode_button1"

@@ -4,7 +4,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    tools:context="cn.magic.rain.com.firstcode.activity.broadcast.LoginActivity">
+    tools:context=".activity.broadcast.LoginActivity">
 
     <LinearLayout
         android:orientation="horizontal"

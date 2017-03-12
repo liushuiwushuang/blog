@@ -16,7 +16,9 @@
 
     <string name="account">Account:</string>
     <string name="password">Password:</string>
+    <string name="remember_password">Remember password</string>
     <string name="text_password">textPassword</string>
     <string name="login">Login</string>
     <string name="send_force_offline_broadcast">Send force offline broadcast</string>
+    <string name="call_phone">Call phone</string>
 </resources>

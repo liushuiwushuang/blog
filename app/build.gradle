@@ -28,4 +28,5 @@ dependencies {
     compile "com.android.support:percent:$rootProject.ext.supportVersion"
     compile "com.android.support:recyclerview-v7:$rootProject.ext.supportVersion"
     testCompile "junit:junit:$rootProject.ext.junitVersion"
+    compile 'org.litepal.android:core:1.5.0'
 }

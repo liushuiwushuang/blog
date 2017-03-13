@@ -4,7 +4,7 @@
     <version value="1"/>
 
     <list>
-        <mapping class="com.magic.rain.cn.firstcode.utils.Book"/>
-        <mapping class="com.magic.rain.cn.firstcode.utils.Category"/>
+        <mapping class="com.magic.rain.cn.firstcode.entity.Book"/>
+        <mapping class="com.magic.rain.cn.firstcode.entity.Category"/>
     </list>
 </litepal>

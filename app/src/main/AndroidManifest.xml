@@ -53,7 +53,7 @@
         <activity android:name=".activity.uicustom.NewsMainActivity" />
         <activity android:name=".activity.broadcast.LoginActivity" />
         <activity android:name=".activity.broadcast.BroadCastPerfectActivity" />
-        <activity android:name=".activity.provider.ContactsActivity"></activity>
+        <activity android:name=".activity.provider.ContactsActivity"/>
         <activity android:name=".activity.database.LitePalActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -64,9 +64,9 @@
 
         <provider
             android:name=".activity.provider.DatabaseContentProvider"
-            android:authorities="com.magic.rain.cn.activity.provider"
+            android:authorities="com.magic.rain.cn.firstcode.provider"
             android:enabled="true"
-            android:exported="true"></provider>
+            android:exported="true"/>
     </application>
 
 </manifest>

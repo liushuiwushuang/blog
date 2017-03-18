@@ -22,4 +22,11 @@
     <string name="send_force_offline_broadcast">Send force offline broadcast</string>
     <string name="call_phone">Call phone</string>
     <string name="create_database">Create database</string>
+
+    <string name="send_notice">Send notice</string>
+    <string name="take_phone">Take phone</string>
+    <string name="choose_form_album">Choose from album</string>
+    <string name="play">Play</string>
+    <string name="pause">Pause</string>
+    <string name="stop">Stop</string>
 </resources>

@@ -1,6 +1,7 @@
 package com.magic.rain.cn.firstcode.utils;
 
 import android.app.Activity;
+import android.os.AsyncTask;
 
 import java.util.ArrayList;
 import java.util.List;

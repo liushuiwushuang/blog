@@ -1,6 +1,9 @@
-package cn.reachnow.bmw.com.firstcode;
+package com.magic.rain.cn.firstcode;
 
 import org.junit.Test;
+
+import java.util.ArrayList;
+import java.util.Vector;
 
 import static org.junit.Assert.*;
 
@@ -12,6 +15,8 @@ import static org.junit.Assert.*;
 public class ExampleUnitTest {
     @Test
     public void addition_isCorrect() throws Exception {
+        new ArrayList<>();
+        new Vector<>();
         assertEquals(4, 2 + 2);
     }
 }

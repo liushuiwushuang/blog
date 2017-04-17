@@ -1,4 +1,4 @@
-package cn.reachnow.bmw.com.firstcode;
+package com.magic.rain.cn.firstcode;
 
 import android.content.Context;
 import android.support.test.InstrumentationRegistry;
@@ -21,6 +21,6 @@ public class ExampleInstrumentedTest {
         // Context of the app under test.
         Context appContext = InstrumentationRegistry.getTargetContext();
 
-        assertEquals("cn.reachnow.bmw.com.firstcode", appContext.getPackageName());
+        assertEquals("com.magic.rain.cn.firstcode", appContext.getPackageName());
     }
 }

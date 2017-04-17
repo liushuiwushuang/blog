@@ -11,6 +11,8 @@ import android.widget.Button;
 import android.widget.Toast;
 
 import com.magic.rain.cn.firstcode.R;
+import com.magic.rain.cn.firstcode.entity.Book;
+import com.magic.rain.cn.firstcode.entity.Category;
 
 
 public class FirstActivity extends AppCompatActivity {
@@ -60,6 +62,11 @@ public class FirstActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 Intent intent = new Intent(FirstActivity.this, HelloWorldActivity.class);
+                Book book = new Book();
+                Category category = new Category();
+                category.setId(1);
+                book.setCategory(category);
+                intent.putExtra("book_data", book);
                 startActivity(intent);
             }
         });
